@@ -14,5 +14,6 @@ db.users.findOne( { _id: "GenesFan" } )
 
 * delete user
 - Delete user from auth0
+Manually https://auth0.com
 - Delete user from mongodb
 db.users.deleteOne( { _id: "GenesFan" } )
