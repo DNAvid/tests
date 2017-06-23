@@ -1,0 +1,18 @@
+* Signup with email and password
+- davidweisss+1@gmail.com
+- ***********
+
+
+* Choose pseudo
+- Check pseudo doesn't exist on mongodb cli
+db.users.findOne( { _id: "GenesFan" } )
+- Choose pseudo
+GenesFan
+
+* Check for creation of record on mongodb
+db.users.findOne( { _id: "GenesFan" } )
+
+* delete user
+- Delete user from auth0
+- Delete user from mongodb
+db.users.deleteOne( { _id: "GenesFan" } )
